@@ -1,0 +1,25 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+
+# Miniconda environment
+miniconda3/
+envs/
+*.conda
+*.env
+
+# Local config files
+*.local
+*.env
+
+# Cache
+.cache/
+
+# Other
+*.DS_Store
+*.directory
