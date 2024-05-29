@@ -7,6 +7,7 @@ from autogen import AssistantAgent, UserProxyAgent
 
 load_dotenv()
 
+# For some reason I need proxyman running and OPENAI_BASE_URL set to http://localhost:10800/v1 for this to work 🤷‍♂️
 llm_config = {
     'model': 'gpt-4o',
     'api_key': os.getenv('OPENAI_API_KEY'),
